@@ -1,0 +1,7 @@
+streamlit
+joblib
+scikit-learn
+nltk
+bs4
+requests
+matplotlib
