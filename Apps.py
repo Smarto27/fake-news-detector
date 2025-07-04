@@ -1,6 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-from utils import fetch_news_content, classify_news
+from Utils import fetch_news_content, classify_news
 
 # -------------------- Streamlit UI --------------------
 st.set_page_config(layout="centered", page_title="🕵️‍♂️ Fake News Detector")
