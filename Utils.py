@@ -11,8 +11,8 @@ nltk.download('stopwords')
 ps = PorterStemmer()
 
 # Load model and vectorizer
-model = joblib.load("Model/fake_news_model(2).pkl")
-vectorizer = joblib.load("Model/tfidf_vectorizer(2).pkl")
+model = joblib.load("Model/fake_news_model.pkl")
+vectorizer = joblib.load("Model/tfidf_vectorizer.pkl")
 
 def stemming(content):
     content = re.sub('[^a-zA-Z]', ' ', content)
